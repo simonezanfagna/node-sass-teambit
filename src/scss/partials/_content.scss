@@ -1,8 +1,7 @@
 main{
   .sec-1{
     margin: 100px auto;
-    display: flex;
-    flex-wrap: wrap;
+
     .sec-1-left{
       h1{
         margin-bottom: 30px;
@@ -110,7 +109,43 @@ main{
     }
   }
   .sec-3{
-    height: 100px;
+    padding-top: 80px;
+    padding-bottom: 25px;
+    h3{
+      font-size: 26px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+      color: #58402c;
+      font-weight: 600;
+    }
+    p{
+      margin-bottom: 40px;
+      font-size: 22px;
+      line-height: 1.5;
+    }
+    a{
+      margin-bottom: 40px;
+      font-size: 22px;
+      color: #30488F;
+      display: block;
+      i::before{
+        content: "\2192";
+      }
+    }
+    .img-feedback img{
+      width: 270px;
+    }
   }
-
+  .sec-4{
+    @extend .sec-3;
+  }
+  .sec-5{
+    @extend .sec-3;
+    .img-feedback img{
+      width: 320px;
+    }
+  }
+  .sec-6{
+    @extend .sec-3;
+  }
 }

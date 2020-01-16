@@ -22,12 +22,27 @@ a{
   text-decoration: none;
 }
 
+.float-right{
+  float: right;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+
 .width-50{
   width: 50%;
+  float: left;
 }
 .width-1150px{
   max-width: 1150px;
   margin: 0 auto;
+}
+.width-420{
+  max-width: 420px;
 }
 .width-33{
   width: 33%;
@@ -36,4 +51,25 @@ a{
 
 .margin-bottom-36{
   margin-bottom: 36px;
+}
+.margin-bottom-30{
+  margin-bottom: 30px;
+}
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.padding-left-10{
+  padding-left: 10px;
+}
+.padding-right-10{
+  padding-right: 10px;
+}
+
+.img-page{
+  @include imgPage();
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
