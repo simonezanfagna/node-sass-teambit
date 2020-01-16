@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +23,10 @@ ul li {
 
 a {
   text-decoration: none;
+}
+
+.width-50 {
+  width: 50%;
 }
 
 header {
@@ -135,5 +141,81 @@ header .container-header .header-right li:first-child:hover .arrow-down-hover {
   width: 18px;
   margin-right: 3px;
   vertical-align: sub;
+}
+
+main {
+  max-width: 1150px;
+  margin: auto;
+}
+
+main .sec-1 {
+  margin: 100px auto;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .sec-1 .sec-1-left h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #58402c;
+  font-family: 600;
+  line-height: 1.4;
+}
+
+main .sec-1 .sec-1-left p {
+  margin-bottom: 30px;
+  font-size: 1.375rem;
+  color: #58402c;
+  line-height: 1.5;
+}
+
+main .sec-1 .sec-1-left .sec-1-left-login {
+  margin-bottom: 30px;
+}
+
+main .sec-1 .sec-1-left .sec-1-left-login a {
+  color: white;
+  background-color: #30488f;
+  border: 1px solid #30488f;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+main .sec-1 .sec-1-left .sec-1-left-login a:hover {
+  background-color: #233569;
+}
+
+main .sec-1 .sec-1-left .sec-1-left-login span.or {
+  display: inline-block;
+  height: 35px;
+  width: 38px;
+  line-height: 35px;
+  font-size: 0.8125rem;
+  color: #bdb5af;
+  text-align: center;
+  margin: auto;
+}
+
+main .sec-1 .sec-1-left .sec-1-left-login-extra a {
+  color: #58402c;
+  font-size: 14px;
+}
+
+main .sec-1 .sec-1-left .sec-1-left-login-extra a i::before {
+  content: "\2192";
+}
+
+main .sec-1 .sec-1-left .sec-1-left-login-extra a:hover {
+  color: #30488f;
+}
+
+main .sec-1 .sec-1-right img {
+  width: 100%;
 }
 

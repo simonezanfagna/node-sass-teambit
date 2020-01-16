@@ -1,0 +1,60 @@
+main{
+  max-width: 1150px;
+  margin: auto;
+  .sec-1{
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    .sec-1-left{
+      h1{
+        margin-bottom: 30px;
+        font-size: 50px;
+        color: #58402c;
+        font-family: 600;
+        line-height: 1.4;
+      }
+      p{
+        margin-bottom: 30px;
+        font-size: 1.375rem;
+        color: #58402c;
+        line-height: 1.5;
+      }
+      .sec-1-left-login{
+        margin-bottom: 30px;
+        a{
+          @include buttonLogin();
+        }
+        a:hover{
+          @include buttonLoginHover();
+        }
+        span.or{
+          display: inline-block;
+          height: 35px;
+          width: 38px;
+          line-height: 35px;
+          font-size: .8125rem;
+          color: #bdb5af;
+          text-align: center;
+          margin: auto;
+        }
+      }
+      .sec-1-left-login-extra{
+        a{
+          color: #58402c;
+          font-size: 14px;
+          i::before{
+            content: "\2192";
+          }
+        }
+        a:hover{
+          color: #30488f;
+        }
+      }
+    }
+    .sec-1-right{
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
