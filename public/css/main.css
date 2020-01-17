@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .clearfix::after {
@@ -206,7 +206,7 @@ main .sec-1 .sec-1-left h1 {
   margin-bottom: 30px;
   font-size: 50px;
   color: #58402c;
-  font-family: 600;
+  font-weight: 600;
   line-height: 1.4;
 }
 
@@ -286,7 +286,8 @@ main .sec-2 .sec-2-bottom > p {
   display: block;
   max-width: 648px;
   font-size: 26px;
-  line-height: 1.533334;
+  font-weight: 600;
+  line-height: 1.5;
   color: #58402c;
 }
 
@@ -384,5 +385,116 @@ main .sec-4 .img-feedback img {
 
 main .sec-5 .img-feedback img {
   width: 320px;
+}
+
+main .sec-7 {
+  padding: 80px 0;
+  background: #ffe7d2;
+  text-align: center;
+}
+
+main .sec-7 h5 {
+  font-size: 40px;
+  line-height: 1.5;
+  color: #58402c;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+main .sec-7 .citazione-container {
+  position: relative;
+  max-width: 628px;
+  margin: 35px auto;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  background: #fff;
+}
+
+main .sec-7 .citazione-container .quote {
+  position: absolute;
+  width: 37px;
+  height: 39px;
+  left: -1px;
+  top: -23px;
+}
+
+main .sec-7 .citazione-container p {
+  text-align: left;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #58402c;
+}
+
+main .sec-7 .citazione-container .founders {
+  text-align: left;
+}
+
+main .sec-7 .citazione-container .founders img {
+  height: 38px;
+  width: 38px;
+  float: left;
+  margin-right: 12px;
+}
+
+main .sec-7 .citazione-container .founders span {
+  display: block;
+  font-size: 14px;
+  color: #58402c;
+}
+
+main .sec-7 .citazione-container .founders span:nth-child(3) {
+  color: #30488f;
+}
+
+main .sec-7 .sec-7-login {
+  margin-bottom: 30px;
+}
+
+main .sec-7 .sec-7-login a {
+  color: white;
+  background-color: #30488f;
+  border: 1px solid #30488f;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+main .sec-7 .sec-7-login a:hover {
+  background-color: #233569;
+}
+
+main .sec-7 .sec-7-login span.or {
+  display: inline-block;
+  height: 35px;
+  width: 38px;
+  line-height: 35px;
+  font-size: 0.8125rem;
+  color: #bdb5af;
+  text-align: center;
+  margin: auto;
+}
+
+main .sec-7 .sec-7-login-extra a {
+  color: #58402c;
+  font-size: 14px;
+}
+
+main .sec-7 .sec-7-login-extra a i::before {
+  content: "\2192";
+}
+
+main .sec-7 .sec-7-login-extra a:hover {
+  color: #30488f;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 55px 0;
 }
 

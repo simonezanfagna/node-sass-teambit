@@ -7,7 +7,7 @@ main{
         margin-bottom: 30px;
         font-size: 50px;
         color: #58402c;
-        font-family: 600;
+        font-weight: 600;
         line-height: 1.4;
       }
       p{
@@ -66,7 +66,8 @@ main{
         display: block;
         max-width: 648px;
         font-size: 26px;
-        line-height: 1.533334;
+        font-weight: 600;
+        line-height: 1.5;
         color: #58402c;
       }
       .width-33.margin-bottom-36 img{
@@ -147,5 +148,88 @@ main{
   }
   .sec-6{
     @extend .sec-3;
+  }
+  .sec-7{
+    padding: 80px 0;
+    background: #ffe7d2;
+    text-align: center;
+    h5{
+      font-size: 40px;
+      line-height: 1.5;
+      color: #58402c;
+      margin-bottom: 50px;
+      font-weight: 600;
+    }
+    .citazione-container{
+      position: relative;
+      max-width: 628px;
+      margin: 35px auto;
+      padding: 20px 20px 20px 40px;
+      border: 1px solid #bdb5af;
+      border-radius: 7px;
+      background: #fff;
+      .quote{
+        position: absolute;
+        width: 37px;
+        height: 39px;
+        left: -1px;
+        top: -23px;
+      }
+      p{
+        text-align: left;
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgb(88, 64, 44);
+      }
+      .founders{
+        text-align: left;
+        img{
+          height: 38px;
+          width: 38px;
+          float: left;
+          margin-right: 12px;
+        }
+        span{
+          display: block;
+          font-size: 14px;
+          color: rgb(88, 64, 44);
+        }
+        span:nth-child(3){
+          color: #30488f;
+        }
+      }
+    }
+    .sec-7-login{
+      margin-bottom: 30px;
+      a{
+        @include buttonLogin();
+      }
+      a:hover{
+        @include buttonLoginHover();
+      }
+      span.or{
+        display: inline-block;
+        height: 35px;
+        width: 38px;
+        line-height: 35px;
+        font-size: .8125rem;
+        color: #bdb5af;
+        text-align: center;
+        margin: auto;
+      }
+    }
+    .sec-7-login-extra{
+      a{
+        color: #58402c;
+        font-size: 14px;
+        i::before{
+          content: "\2192";
+        }
+      }
+      a:hover{
+        color: #30488f;
+      }
+    }
   }
 }
