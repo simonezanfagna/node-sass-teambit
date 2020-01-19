@@ -499,6 +499,30 @@ main .sec-7 .sec-7-login-extra a:hover {
   color: #30488f;
 }
 
+main .help-container .help {
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #2e4691;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10000;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px;
+}
+
+main .help-container .help i {
+  font-size: 28px;
+}
+
 footer {
   margin-top: 50px;
   padding: 55px 0;

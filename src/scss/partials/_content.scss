@@ -232,4 +232,26 @@ main{
       }
     }
   }
+
+  .help-container{
+    .help{
+      cursor: pointer;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      background-color: rgb(46, 70, 145);
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 10000;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 6px 0px, rgba(0, 0, 0, 0.16) 0px 2px 32px 0px;
+      i{
+        font-size: 28px;
+      }
+    }
+  }
 }
